@@ -23,4 +23,7 @@ sudo mv /etc/vsftpd.userlist /etc/default-vsftpd.userlist
 sudo cp vsftpd.userlist /etc/vsftpd.userlist
 sudo chmod 655 /etc/vsftpd.userlist
 
-sudo systemctl restart vsftpd.service 
+sudo cp book.txt /home/ftp_user/ftp/book.txt
+sudo chown ftp_user:ftp_user /home/ftp_user/ftp/book.txt
+
+sudo systemctl restart vsftpd.service
