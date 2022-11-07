@@ -7,12 +7,10 @@ sudo apt-get install apache2 -y
 sudo mkdir /var/www/cursoceape
 
 sudo cp index.php /var/www/cursoceape/index.php
-#sudo chown rmba:rmba /var/www/cursoceape/index.php
 sudo chmod -R 755 /var/www/cursoceape/
 
 
 sudo cp cursoceape.conf /etc/apache2/sites-available/cursoceape.conf 
-#sudo chown rmba:rmba /var/www/cursoceape/index.php
 sudo chmod -R 755 /etc/apache2/sites-available/cursoceape.conf
 
 sudo a2ensite cursoceape.conf 
