@@ -24,3 +24,11 @@ sudo systemctl restart apache2
 
 sudo ufw allow 80/tcp 
 sudo ufw allow 443/tcp
+
+sudo a2enmod SSL
+sudo systemctl restart apache2
+
+sudo mkdir /etc/apache2/certificate
+sudo openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out /etc/apache2/certificate/apache-certificate.crt -keyout /etc/apache2/certificate/apache.key
+
+sudo systemctl restart apache2

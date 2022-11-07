@@ -27,3 +27,7 @@ sudo cp book.txt /home/ftp_user/ftp/book.txt
 sudo chown ftp_user:ftp_user /home/ftp_user/ftp/book.txt
 
 sudo systemctl restart vsftpd.service
+
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/vsftpd.key -out /etc/ssl/private/vsftpd.pem
+
+sudo systemctl restart vsftpd.service
