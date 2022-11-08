@@ -2,6 +2,8 @@
 
 Na raiz deste repositório encontra-se o Roteiro de Execução em formato PDF da implementação passo a passo dos serviços de FTP/FTPS e HTTP/HTTPS seguindo algumas boas práticas de segurança. O processo de configuração pode ser realizado passo a passo seguindo o arquivo do roteiro ou de forma automatizada.
 
+Para ter acesso ao arquivo PDF com o roteiro de execução passo a passo click aqui: [link](./Roteiro%20de%20Execução.pdf)
+
 Para instalar os serviços de em questão de forma automatizada em um servidor Linux siga as instruções:
 
 ### Automação da instalação do servidor FTPS (vsftpd)
