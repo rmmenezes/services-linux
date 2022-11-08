@@ -32,7 +32,6 @@ Execute o ftp.sh para iniciar a instalação do FTPS automatizado:
 server@server:~$ sudo ./ftp.sh
 ```
 
-
 ___
 
 
@@ -61,4 +60,5 @@ server@server:~$ sudo chmod +x apache.sh
 
 Execute o ftp.sh para iniciar a instalação do servidor Apache (HTTP/HTTPS) automatizado:
 ```console
-server@server:~$ sudo ./apache.
+server@server:~$ sudo ./apache.sh
+```
