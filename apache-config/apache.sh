@@ -25,7 +25,8 @@ sudo systemctl restart apache2
 sudo ufw allow 80/tcp 
 sudo ufw allow 443/tcp
 
-sudo a2enmod SSL
+sudo a2enmod ssl
+
 sudo systemctl restart apache2
 
 sudo mkdir /etc/apache2/certificate
