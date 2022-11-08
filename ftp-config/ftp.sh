@@ -2,7 +2,7 @@
 
 sudo apt-get update -y
 sudo apt-get upgrade -y
-sudo apt-get install vsftpd -y
+sudo apt-get install vsftpd -y --quiet
 
 sudo mv /etc/vsftpd.conf /etc/default-vsftpd.conf
 sudo cp vsftpd.conf /etc/vsftpd.conf
